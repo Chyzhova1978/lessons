@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+.section{
+   color: blue; 
+}
+
+#top{
+   color: blueviolet;
+}
+
+h2{
+   color: red;
+}
+
+.block a{
+   color: rgb(8, 63, 212);
+}
+
+.block + p{
+   color: yellow;
+}
+
+[class*="ite"]{
+   color: orange;
+}
+
+.div h5{
+   color: darkgreen;
+}
+
+.div ~ ul{
+   color: aqua;
+}
+
+div.text{
+   color: yellow;
+}
+
+.sub-title,
+h3{
+   color: brown;
+}
+
+.article > p{
+   color: mediumblue;
+}
+
+.title *{
+   color: darkolivegreen;
+}
+
+.container.content{
+   color: cadetblue;
+}
