@@ -4,6 +4,8 @@
 
 
 body{
+   max-width: 1920px;
+   padding: 0 15px;   
    font-family: "Roboto", sans-serif;
    font-size: 18px;
    font-weight: 500;
@@ -11,13 +13,14 @@ body{
    background-color: #7e7f7c; 
 }
 
-.wrapper{
+/* .wrapper{
    max-width: 1920px;
    padding: 0 15px;   
-}
+} */
 
 /* header */
 .header{
+   margin-top: 20px;
    text-align: center;
    padding: 20px;
    background-color: #e7e1e1cb;
