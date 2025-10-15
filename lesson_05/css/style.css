@@ -13,10 +13,6 @@ body{
    background-color: #7e7f7c; 
 }
 
-/* .wrapper{
-   max-width: 1920px;
-   padding: 0 15px;   
-} */
 
 /* header */
 .header{
@@ -155,8 +151,7 @@ body{
    margin-bottom: 30px;
    padding: 10px;
    white-space: nowrap;
-   overflow: auto;
-   
+   overflow: auto;  
 }
 
 /* vertical */
