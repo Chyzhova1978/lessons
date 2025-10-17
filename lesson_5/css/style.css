@@ -1,0 +1,97 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+body{
+   font-family: "Lato", sans-serif;
+   text-align: center;
+   line-height: 1.5;
+}
+
+/* header */
+.header{
+   margin: 50px 0 50px;
+}
+
+.header-title{
+   font-size: 25px;
+   font-weight: 800;
+   color:  #2f302c;
+   text-transform: uppercase;
+}
+
+/* main */
+.why-container{
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+.why-choose-title{
+   margin-bottom: 72px;
+   font-weight: 800;
+   font-size: 32px;
+   color:  #2f302c;
+   text-transform: uppercase;
+}
+
+.why-cards{
+   font-size: 0;
+   margin-left: -34px;
+   margin-right: -34px;
+}
+
+.why-card{
+   margin-bottom: 68px;
+   padding-left: 34px;
+   padding-right: 34px;
+   display: inline-block;
+   width: 33.3333%;
+   vertical-align: top;
+}
+
+.why-img{
+   width: 60px;
+   height: 60px;
+   margin-bottom: 24px;
+}
+
+.why-title{
+   margin-bottom: 24px;
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #2f302c;
+}
+
+.why-text{
+   font-weight: 500;
+   font-size: 16px;
+   text-align: center;
+   color: #7e7f7c;
+}
+
+hr{
+   margin: 0 auto;
+   width: 50%;
+   height: 2px;
+   background-color: #2f302c;
+}
+
+/* footer */
+.footer-copyright{
+   padding: 15px;  
+   font-size: 16px;
+   font-weight: 500;
+   color: #7e7f7c;
+}
+
+
+
+
+
+
+
+
+
+
