@@ -1,0 +1,396 @@
+@import url("reset.css");
+
+body{
+   font-family: "Montserrat", sans-serif;
+   line-height: 1.7;
+}
+
+h3{
+   color: green;
+}
+
+h2{
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 25px;
+}
+
+/* header */
+.header{
+   margin-bottom: 10px;
+   padding: 20px 0;
+   background-color: grey;
+   text-align: center;
+   color: #fff;
+}
+
+.container{
+   width: 100%;
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+   text-align: center;  
+}
+
+.header__title{
+   margin-bottom: 15px;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 25px;
+}
+
+.list li{
+   padding: 0 10px;
+   display: inline-block;
+}
+
+/* main */
+.main{
+   margin-bottom: 50px;
+}
+/* практика */
+/* псевдо-класи */
+.practice__item{
+   margin-bottom: 20px;
+}
+
+.practice__item a{
+   display: block;
+   padding: 5px;
+   font-size: 20px;
+   background-color: yellow;
+   margin-bottom: 20px;
+}
+
+.practice__item .rest{
+   color: blue;
+}
+
+.practice__item .hover:hover{
+   color: blue;
+   text-decoration: underline;
+}
+
+.practice__item .hover:hover span{
+   color: red;
+}
+
+.practice__item .activ:active{
+   color: red;
+   text-decoration: underline;
+}
+
+.practice__item .visited:visited{
+   color: aqua;
+}
+
+.practice__item .focus:focus{
+   outline: 3px solid blue;
+}
+
+.practice__item .focus-visible:focus-visible{
+   outline: 3px solid red;
+}
+
+.block{
+   height: 100px;
+   background-color: yellow;
+}
+
+.block:target{
+   background-color: aqua;
+}
+
+.practice__block{
+   margin-bottom: 20px;
+}
+
+.practice__text{
+   padding: 15px;
+   background-color: chartreuse;
+}
+
+.practice__text p{
+   margin-bottom: 10px;
+}
+
+.practice__text p:first-child{
+   color: #fff;
+}
+
+.practice__text p:nth-child(3){
+   text-decoration: underline;
+}
+
+.practice__text p:nth-child(even){
+   color: red;
+}
+
+.practice__text p:nth-child(odd){
+   text-transform: uppercase;
+}
+
+.practice__text p:last-of-type{
+   color: #fff;
+   text-decoration: underline;
+}
+
+/* гарна практика */
+.some-block{
+   margin-bottom: 20px;
+   padding: 15px;
+   background-color: #77608d;
+}
+
+.some-block > *{
+   margin-bottom: 16px;
+}
+
+.some-block__title{
+   margin-bottom: 34px;
+   font-size: 24;
+   font-weight: 700; 
+}
+
+.some-block__text{
+   line-height: 1.2;   
+}
+
+.some-block__link{
+   color: yellow;
+}
+
+.some-block > *:last-child{
+   margin-bottom: 0;
+}
+
+/* псевдо-елемент */
+.text-block{
+   margin-bottom: 20px;
+   font-size: 20px;  
+}
+
+.text-block::before{
+   content: "BEFORE";
+   color: red;
+}
+
+.text-block::after{
+   content: "AFTER";
+   color: blue;
+}
+
+/* price */
+.price{
+   margin-bottom: 50px;
+}
+
+.price__container{
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.price__card{
+   display: inline-block;   
+   max-width: 351px;
+   margin-right: 8px;   
+   overflow: hidden;
+   border-radius: 8px;
+   box-shadow: 0 13px 19px 0 rgba(0,0,0,.07);
+   transition: 0.3s;
+}
+
+.price__card:last-child{
+   margin-right: 0;
+}
+
+.price__card-list{
+   text-align-last: left;  
+   padding: 16px 0;
+}
+
+.price__card-item{
+   margin-bottom: 15px;
+   padding-top: 4px;
+   padding-left: 40px;
+   padding-right: 40px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #252b42;  
+}
+
+.price__card:hover{
+   transform: scale(1.05);
+   background-color: #e1f4ff;
+}
+
+.price__card-item::before{
+   content: "";
+   margin-right: 10px;
+   background: url(../img/check.png) 0 0 no-repeat;
+   width: 32px;
+   height: 32px;
+   vertical-align: middle;
+}
+
+.price__card-item:nth-child(4)::before,
+.price__card-item:nth-child(5)::before{
+   content: "";
+   margin-right: 10px;
+   background: url(../img/check-grey.png) 0 0 no-repeat;
+   width: 32px;
+   height: 32px;
+   vertical-align: middle;
+}
+
+/* game */
+.game__wrapper{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #77608d;
+   border-radius: 10px;
+   color: #0e0eb1;
+   font-size: 20px;
+   /* overflow: hidden; */
+}
+
+.game__container h2{
+   text-align: center;
+}
+
+.start, .finish {
+   display: inline-block;
+   padding: 10px;  
+   background-color: #fff;
+   border-radius: 10px;
+   visibility: visible;
+}
+
+.game__block {
+   visibility: hidden;
+   background-color: #0e0eb1;
+   border-radius: 4px;
+   border: 2px solid yellow;
+}
+
+.block-1 {
+   width: 20px;
+   height: 100px;
+   margin-left: 25px;
+}
+
+.block-2 {
+   width: 230px;
+   height: 7px;
+   margin-left: 25px;
+}
+
+.block-3{
+   width: 10px;
+   height: 20px;
+   margin-left: 245px;
+}
+
+.block-4 {
+   width: 200px;
+   height: 10px;
+   margin-left: 245px;
+}
+
+.block-5 {
+   width: 20px;
+   height: 150px;
+   margin-left: 425px;
+}
+
+.block-6 {
+   width: 150px;
+   height: 20px;
+   margin-left: 425px;
+}
+
+.block-7 {
+   width: 10px;
+   height: 50px;
+   margin-left: 565px;
+}
+
+.block-8 {
+   width: 475px;
+   height: 10px;
+   margin-left: 100px;
+}
+
+.block-9 {
+   width: 10px;
+   height: 20px;
+   margin-left: 100px; 
+}
+
+.block-10 {
+   width: 100px;
+   height: 7px;
+   margin-left: 100px;
+}
+
+.block-11 {
+   width: 10px;
+   height: 50px;
+   margin-left: 190px;
+}
+
+.block-12 {
+   width: 450px;
+   height: 15px;
+   margin-left: 190px;
+}
+
+.block-13 {
+   width: 7px;
+   height: 40px;
+   margin-left: 632px;
+}
+
+.block-14 {
+   width: 600px;
+   height: 7px;
+   margin-left: 40px;
+}
+
+.block-15 {
+   width: 20px;
+   height: 50px;
+   margin-left: 40px;
+}
+
+/* footer */
+.footer{
+   margin-bottom: 50px;
+   padding: 20px 0;
+   background-color: grey;
+   text-align: center;
+   color: #fff;
+   background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
