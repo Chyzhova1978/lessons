@@ -1,15 +1,15 @@
 @import url("reset.css");
 
-body{
+body {
    font-family: "Montserrat", sans-serif;
    line-height: 1.7;
 }
 
-h3{
+h3 {
    color: green;
 }
 
-h2{
+h2 {
    margin-bottom: 20px;
    text-transform: uppercase;
    font-weight: 700;
@@ -17,7 +17,7 @@ h2{
 }
 
 /* header */
-.header{
+.header {
    margin-bottom: 10px;
    padding: 20px 0;
    background-color: grey;
@@ -25,7 +25,7 @@ h2{
    color: #fff;
 }
 
-.container{
+.container {
    width: 100%;
    max-width: 1230px;
    margin: 0 auto;
@@ -33,14 +33,14 @@ h2{
    text-align: center;  
 }
 
-.header__title{
+.header__title {
    margin-bottom: 15px;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 25px;
 }
 
-.list li{
+.list li {
    padding: 0 10px;
    display: inline-block;
 }
@@ -51,11 +51,11 @@ h2{
 }
 /* практика */
 /* псевдо-класи */
-.practice__item{
+.practice__item {
    margin-bottom: 20px;
 }
 
-.practice__item a{
+.practice__item a {
    display: block;
    padding: 5px;
    font-size: 20px;
@@ -63,135 +63,135 @@ h2{
    margin-bottom: 20px;
 }
 
-.practice__item .rest{
+.practice__item .rest {
    color: blue;
 }
 
-.practice__item .hover:hover{
+.practice__item .hover:hover {
    color: blue;
    text-decoration: underline;
 }
 
-.practice__item .hover:hover span{
+.practice__item .hover:hover span {
    color: red;
 }
 
-.practice__item .activ:active{
+.practice__item .activ:active {
    color: red;
    text-decoration: underline;
 }
 
-.practice__item .visited:visited{
+.practice__item .visited:visited {
    color: aqua;
 }
 
-.practice__item .focus:focus{
+.practice__item .focus:focus {
    outline: 3px solid blue;
 }
 
-.practice__item .focus-visible:focus-visible{
+.practice__item .focus-visible:focus-visible {
    outline: 3px solid red;
 }
 
-.block{
+.block {
    height: 100px;
    background-color: yellow;
 }
 
-.block:target{
+.block:target {
    background-color: aqua;
 }
 
-.practice__block{
+.practice__block {
    margin-bottom: 20px;
 }
 
-.practice__text{
+.practice__text {
    padding: 15px;
    background-color: chartreuse;
 }
 
-.practice__text p{
+.practice__text p {
    margin-bottom: 10px;
 }
 
-.practice__text p:first-child{
+.practice__text p:first-child {
    color: #fff;
 }
 
-.practice__text p:nth-child(3){
+.practice__text p:nth-child(3) {
    text-decoration: underline;
 }
 
-.practice__text p:nth-child(even){
+.practice__text p:nth-child(even) {
    color: red;
 }
 
-.practice__text p:nth-child(odd){
+.practice__text p:nth-child(odd) {
    text-transform: uppercase;
 }
 
-.practice__text p:last-of-type{
+.practice__text p:last-of-type {
    color: #fff;
    text-decoration: underline;
 }
 
 /* гарна практика */
-.some-block{
+.some-block {
    margin-bottom: 20px;
    padding: 15px;
    background-color: #77608d;
 }
 
-.some-block > *{
+.some-block > * {
    margin-bottom: 16px;
 }
 
-.some-block__title{
+.some-block__title {
    margin-bottom: 34px;
    font-size: 24px;
    font-weight: 700; 
 }
 
-.some-block__text{
+.some-block__text {
    line-height: 1.2;   
 }
 
-.some-block__link{
+.some-block__link {
    color: yellow;
 }
 
-.some-block > *:last-child{
+.some-block > *:last-child {
    margin-bottom: 0;
 }
 
 /* псевдо-елемент */
-.text-block{
+.text-block {
    margin-bottom: 20px;
    font-size: 20px;  
 }
 
-.text-block::before{
+.text-block::before {
    content: "BEFORE";
    color: red;
 }
 
-.text-block::after{
+.text-block::after {
    content: "AFTER";
    color: blue;
 }
 
 /* price */
-.price{
+.price {
    margin-bottom: 50px;
 }
 
-.price__container{
+.price__container {
    padding: 0 15px;
    margin: 0 auto;
 }
 
-.price__card{
+.price__card {
    display: inline-block;   
    max-width: 351px;
    margin-right: 8px;   
@@ -201,16 +201,16 @@ h2{
    transition: 0.3s;
 }
 
-.price__card:last-child{
+.price__card:last-child {
    margin-right: 0;
 }
 
-.price__card-list{
+.price__card-list {
    text-align-last: left;  
    padding: 16px 0;
 }
 
-.price__card-item{
+.price__card-item {
    margin-bottom: 15px;
    padding-top: 4px;
    padding-left: 40px;
@@ -220,12 +220,12 @@ h2{
    color: #252b42;  
 }
 
-.price__card:hover{
+.price__card:hover {
    transform: scale(1.05);
    background-color: #e1f4ff;
 }
 
-.price__card-item::before{
+.price__card-item::before {
    content: "";
    margin-right: 10px;
    background: url(../img/check.png) 0 0 no-repeat;
@@ -235,7 +235,7 @@ h2{
 }
 
 .price__card-item:nth-child(4)::before,
-.price__card-item:nth-child(5)::before{
+.price__card-item:nth-child(5)::before {
    content: "";
    margin-right: 10px;
    background: url(../img/check-grey.png) 0 0 no-repeat;
@@ -245,7 +245,7 @@ h2{
 }
 
 /* game */
-.game__wrapper{
+.game__wrapper {
    max-width: 800px;
    margin: 0 auto;
    padding: 20px;
@@ -253,10 +253,9 @@ h2{
    border-radius: 10px;
    color: #0e0eb1;
    font-size: 20px;
-   /* overflow: hidden; */
 }
 
-.game__container h2{
+.game__container h2 {
    text-align: center;
 }
 
@@ -265,16 +264,94 @@ h2{
    padding: 10px;  
    background-color: #fff;
    border-radius: 10px;
-   visibility: visible;
 }
 
 .game__block {
    visibility: hidden;
    background-color: #0e0eb1;
    border-radius: 4px;
-   border: 2px solid yellow;
+   border: 2px solid yellow;  
 }
 
+.start:hover + .block-1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.block-1:hover,
+.block-1:hover + .block-2 {
+  visibility: visible;
+}
+
+.block-2:hover,
+.block-2:hover + .block-3 {
+  visibility: visible;
+}
+
+.block-3:hover,
+.block-3:hover + .block-4 {
+  visibility: visible;
+}
+
+.block-4:hover,
+.block-4:hover + .block-5 {
+  visibility: visible;
+}
+
+.block-5:hover,
+.block-5:hover + .block-6 {
+  visibility: visible;
+}
+
+.block-6:hover,
+.block-6:hover + .block-7 {
+  visibility: visible;
+}
+
+.block-7:hover,
+.block-7:hover + .block-8 {
+  visibility: visible;
+}
+
+.block-8:hover,
+.block-8:hover + .block-9 {
+  visibility: visible;
+}
+
+.block-9:hover,
+.block-9:hover + .block-10 {
+  visibility: visible;
+}
+
+.block-10:hover,
+.block-10:hover + .block-11 {
+  visibility: visible;
+}
+
+.block-11:hover,
+.block-11:hover + .block-12 {
+  visibility: visible;
+}
+
+.block-12:hover,
+.block-12:hover + .block-13 {
+  visibility: visible;
+}
+
+.block-13:hover,
+.block-13:hover + .block-14 {
+  visibility: visible;
+}
+
+.block-14:hover,
+.block-14:hover + .block-15 {
+  visibility: visible;
+}
+
+.block-15:hover,
+.block-15:hover + .finish {
+  visibility: visible;
+}
 .block-1 {
    width: 20px;
    height: 100px;
@@ -366,7 +443,7 @@ h2{
 }
 
 /* footer */
-.footer{
+.footer {
    margin-bottom: 50px;
    padding: 20px 0;
    background-color: grey;
