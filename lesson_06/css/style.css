@@ -3,7 +3,7 @@
 @import url("fonts.css");
 
 
-.header{
+.header {
    padding: 30px 0 30px;
    margin-bottom: 50px;
    text-align: center;
@@ -14,12 +14,12 @@
    background-color: #7e7f7c;
 }
 
-.wrapper{
+.wrapper {
    max-width: 1180px;
    margin: 0 auto 50px;
 }
 
-.list-item__green{
+.list-item__green {
    min-height: 32px;
    margin-bottom: 15px;
    padding-left: 42px;
@@ -33,7 +33,7 @@
    color: #252b42;
 }
 
-.list-item__grey{
+.list-item__grey {
    min-height: 32px;
    margin-bottom: 15px;
    padding-left: 42px;
@@ -47,57 +47,56 @@
    color: #252b42;
 }
 
-.item{
+.item {
    padding-left: 45px;
    margin-bottom: 15px; 
    min-height: 32px;
    line-height: 1.5;
 }
 
-.section{
+.section {
    min-height: 612px;
    margin-bottom: 50px;
+   padding: 114px 0 110px;
    background: url(../img/rectangle.png) center / cover no-repeat;
 }
 
-.block__container{
+.block__container {
    max-width: 1400px;
-   margin: 0 auto;
-   padding: 114px 0 110px;
+   margin: 0 auto;  
 }
 
-.block__content{
+.block__content {
    max-width: 650px;
    margin: 0 0 0 auto;
+   font-weight: 700;
    font-family: "Lato",sans-serif;
    color: #2f302c;  
 }
 
-.block__content h3{ 
+.block__content h3 { 
    margin-bottom: 20px;   
    font-size: 20px;  
    font-style: normal;  
-   font-weight: 700;
    line-height: 1.4; /* 28/20 */
    text-transform: uppercase; 
 }
 
-.block__title{
+.block__title {
    margin-bottom: 16px;
    color: #2f302c;
    font-size: 96px;
    font-style: normal;
    font-family: "Montserrat",sans-serif;
-   font-weight: 800;
    line-height: 1.04;
    text-transform: uppercase;
 }
 
-.block__title-span{
-   font-weight: 700;
+.block__title span {
+   font-weight: 800;
 }
 
-.block__inline{
+.block__inline {
    max-width: 308px;
    margin-bottom: 36px;
    margin-left: 5px;
@@ -105,7 +104,7 @@
    background-color: #2f302c;
 }
 
-.subtitle{
+.block__content p {
    max-width: 380px;
    color: #7e7f7c;
    font-size: 16px;
