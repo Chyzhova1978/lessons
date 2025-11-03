@@ -7,11 +7,13 @@ body {
 
 h3 {
    color: green;
+   text-align: center;
 }
 
 h2 {
    margin-bottom: 20px;
    text-transform: uppercase;
+   text-align: center;
    font-weight: 700;
    font-size: 25px;
 }
@@ -26,11 +28,10 @@ h2 {
 }
 
 .container {
-   width: 100%;
+   /* width: 100%; */
    max-width: 1230px;
    margin: 0 auto;
    padding: 0 15px;
-   text-align: center;  
 }
 
 .header__title {
@@ -53,6 +54,7 @@ h2 {
 /* псевдо-класи */
 .practice__item {
    margin-bottom: 20px;
+   text-align: center;
 }
 
 .practice__item a {
@@ -140,6 +142,7 @@ h2 {
 .some-block {
    margin-bottom: 20px;
    padding: 15px;
+   text-align: center;
    background-color: #77608d;
 }
 
@@ -168,6 +171,7 @@ h2 {
 /* псевдо-елемент */
 .text-block {
    margin-bottom: 20px;
+   text-align: center;
    font-size: 20px;  
 }
 
@@ -189,12 +193,15 @@ h2 {
 .price__container {
    padding: 0 15px;
    margin: 0 auto;
+  
+}
+.price__cards {
+   text-align: center;
 }
 
 .price__card {
    display: inline-block;   
-   max-width: 351px;
-   margin-right: 8px;   
+   max-width: 361px;   
    overflow: hidden;
    border-radius: 8px;
    box-shadow: 0 13px 19px 0 rgba(0,0,0,.07);
@@ -206,8 +213,8 @@ h2 {
 }
 
 .price__card-list {
-   text-align-last: left;  
-   padding: 16px 0;
+   text-align: left;
+   padding: 16px 40px;
 }
 
 .price__card-item {
@@ -217,7 +224,8 @@ h2 {
    padding-right: 40px;
    font-weight: 600;
    font-size: 14px;
-   color: #252b42;  
+   color: #252b42;
+   line-height: 1.71;  
 }
 
 .price__card:hover {
@@ -227,6 +235,7 @@ h2 {
 
 .price__card-item::before {
    content: "";
+   margin-left: -42px;
    margin-right: 10px;
    background: url(../img/check.png) 0 0 no-repeat;
    width: 32px;
