@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+body{
+   padding: 0 15px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 35px;
+   font-weight: 600;
+   color: #a76b33;
+   background-color: rgb(212, 179, 179);
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/* header */
+.header{
+   padding: 25px 0;
+}
+
+.logo div {
+   margin-left: 70px;
+   display: inline-block;
+   text-transform: uppercase;
+}
+
+.logo img {
+   max-width: 100%;
+   vertical-align: top;
+}
+
+/* main */
+.decor__text {
+   display: inline-block;
+}
+
+.vector div {
+   display: inline-block;
+   margin-left: 70px;
+}
+
+.block {
+   margin-bottom: 40px;
+}
+
+.yoga__img {
+   border-radius: 35px;
+}
+
+.yoga__practice {
+   margin: 0 auto;   
+}
+
+.yoga__practice div {
+   margin-bottom: 20px;
+}
+
+/* footer */
+.footer__text {
+   display: inline-block;
+   margin-left: 50px;
+   text-transform: uppercase;
+}
+
+.footer__img {
+   padding: 20px 0;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
