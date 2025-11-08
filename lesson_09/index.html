@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Кодування тексту -->
+    <meta charset="UTF-8" />
+
+    <!-- Налаштування в`юпорту (адаптиву, масштабу тощо) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Підключення шріфтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Загаловок сторінки в браузері(вкладці) -->
+    <title>Lesson 8</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__container">
+        <div class="header__body">
+          <div class="header__logo">
+            <a href="#">
+              <img src="img/logo.png" alt="logo" >
+            </a>
+          </div>
+          <div class="header__search">
+            <input
+              class="header__input"
+              type="text"
+              placeholder="Search something"
+            />
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list list">
+              <li class="list__item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list__item">
+                <a href="#">Shop</a>
+              </li>
+              <li class="list__item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list__item">
+                <a href="#">About us</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__links">
+            <ul class="header__link link">
+              <li class="link__item">
+                <a href="#">Love</a>
+              </li>
+              <li class="link__item">
+                <a href="#">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="hello">
+        <div class="hello__container">
+          <div class="hello__body">
+             <div class="hello__content">
+               <h3>WELCOME TO OUR</h3>
+   
+               <h1 class="hello__title">
+                 <span>FUNITURE</span>
+                 <br />
+                 GALLERY
+               </h1>
+   
+               <div class="hello__inline"></div>
+   
+               <h3>BROWSE OUR SELECTIONS</h3>
+               <p>
+                 Featuring sleek designs and innovative materials that seamlessly
+                 blend form and function.
+               </p>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inner">
+        <div class="inner__container">
+          <div class="inner__cards">
+            <div class="card-inner">
+              <div class="card-inner__img">
+                <img src="img/small.png" alt="#" >
+                <img src="img/big.png" alt="#" >
+              </div>
+              <div class="card-inner__body">
+                <h3 class="card-inner__title">Hanging light</h3>
+                <div class="card-inner__text">
+                  <p>
+                    Upgrade your space with our modern hanging light, featuring
+                    sleek lines, energy-efficient LED lighting, and adjustable
+                    height.
+                  </p>
+                </div>
+                <a class="card-inner__link" href="#">View more</a>
+              </div>
+            </div>
+
+            <div class="card-inner">
+              <div class="card-inner__body">
+                <h3 class="card-inner__title">Designed sofa</h3>
+                <div class="card-inner__text">
+                  <p>
+                    Introducing our newest sofa, the perfect combination of
+                    style and comfort, designed to elevate your living space and
+                    provide ultimate relaxation.
+                  </p>
+                </div>
+                <a class="card-inner__link" href="#">View more</a>
+              </div>
+              <div class="card-inner__img">
+                <img src="img/sofa.png" alt="#" >
+              </div>
+            </div>
+
+            <div class="card-inner">
+              <div class="card-inner__body">
+                <h3 class="card-inner__title">Nova chair</h3>
+                <div class="card-inner__text">
+                  <p>
+                    a stylish and comfortable addition to any room, with its
+                    sleek design and plush cushions creating the ultimate
+                    seating experience.
+                  </p>
+                </div>
+                <a class="card-inner__link" href="#">View more</a>
+              </div>
+              <div class="card-inner__img">
+                <img src="img/chair.png" alt="#" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trusted">
+        <div class="trusted__container">
+          <div class="trusted__body">
+             <h2 class="trusted__title">Trusted by</h2>
+   
+             <div class="trusted__items">
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/aspen-online.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/gropand-highlight.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/brand.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/missy.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/peppermint.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/pixie-lads.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/brand.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/pixie-lads.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/peppermint.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/missy.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/aspen-online.svg" alt="#" >
+               </div>
+   
+               <div class="trusted__item">
+                 <img class="trusted__image" src="img/gropand-highlight.svg" alt="#" >
+               </div>
+             </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <p>Furnitur © Copyright 2020, Inc. All rights reserved</p>
+    </footer>
+  </body>
+</html>

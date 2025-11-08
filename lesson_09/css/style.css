@@ -1,0 +1,91 @@
+@import url("reset.css");
+
+body {
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.header {
+   margin: 114px 0 114px;
+}
+
+[class*="__container"] {
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.hello {
+   margin-bottom: 82px;
+   padding: 114px 0 110px;
+   color: #2f302c;
+   background: url(../img/rectangle.jpg) left center / cover no-repeat;
+}
+
+.hello__content {
+   max-width: 650px;
+   margin-left: auto;
+   font-weight: 700;
+   color: #2f302c;       
+}
+
+.hello__content h3 { 
+   margin-bottom: 20px;   
+   font-size: 20px;  
+   font-style: normal;  
+   line-height: 1.4; /* 28/20 */
+   text-transform: uppercase; 
+}
+
+.hello__title {
+   margin-bottom: 16px;
+   color: #2f302c;
+   font-size: 96px;
+   font-style: normal;
+   font-family: "Montserrat",sans-serif;
+   line-height: 1.04;
+   text-transform: uppercase;
+}
+
+.hello__title span {
+   font-weight: 800;
+}
+
+.hello__inline {
+   max-width: 308px;
+   margin-bottom: 36px;
+   margin-left: 5px;
+   height: 1px;
+   background-color: #2f302c;
+}
+
+.hello__content p {
+   max-width: 380px;
+   color: #7e7f7c;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
