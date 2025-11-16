@@ -71,7 +71,7 @@ body {
    color: #fff;
 }
 
-.submenu__item:hover .submenu-list__item {   
+.submenu__item:hover .submenu__list {   
    visibility: visible;
    opacity: 1;
 }
@@ -97,7 +97,7 @@ body {
    text-align: center;
 }
 
-.submenu-list__item {
+.submenu__list {
    position: absolute;
    top: 0;
    left: 100%;
@@ -150,22 +150,16 @@ body {
 }
 
 .practice__block--green {
-   background-color: #16e09e;
-}
-
-.practice__block--violet {
-   background-color: #7c4eff;
-}
-
-.practice__block--green {
    position: relative;
    top: 20px;
-   left: 30px;  
+   left: 30px;
+   background-color: #16e09e;
 }
 
 .practice__block--violet {
    position: relative;
    z-index: 2;
+   background-color: #7c4eff;
 }
 
 .practice__block--brown {
@@ -174,7 +168,7 @@ body {
    background-color: brown;
 }
 
-.practice__blocks--color {
+.practice__color {
    position: relative;
 }
 
