@@ -71,7 +71,7 @@ body {
    color: #fff;
 }
 
-.submenu__item:hover .menu__sub-menu {   
+.submenu__item:hover .submenu-list__item {   
    visibility: visible;
    opacity: 1;
 }
@@ -97,7 +97,7 @@ body {
    text-align: center;
 }
 
-.menu__sub-menu {
+.submenu-list__item {
    position: absolute;
    top: 0;
    left: 100%;
@@ -202,7 +202,7 @@ body {
    color: #fff;
 }
 
-.practice__block--fixed {
+.practice__fixed {
    width: 100px;
    height: 100px;
    position: fixed;
