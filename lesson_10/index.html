@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Кодування тексту -->
+    <meta charset="UTF-8" />
+
+    <!-- Налаштування в`юпорту (адаптиву, масштабу тощо) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Підключення шріфтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Загаловок сторінки в браузері(вкладці) -->
+    <title>Lesson 10</title>
+  </head>
+  <body id="top">
+    <div class="wrapper">
+<!-- header -->
+      <header class="header header--margin">
+        <div class="header__container">
+          <div class="header__body">
+            <h1 class="header__title">Lesson 10</h1>
+
+            <div class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Services</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Contact</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Prices</a>
+
+                  <ul class="menu__submenu submenu">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Submenu</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Submenu</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Submenu</a>
+
+                      <ul class="menu__sub-menu sub-menu">
+                        <li class="sub-menu__item">
+                          <a class="sub-menu__link" href="#">Submenu</a>
+                        </li>
+                        <li class="sub-menu__item">
+                          <a class="sub-menu__link" href="#">Submenu</a>
+                        </li>
+                        <li class="sub-menu__item">
+                          <a class="sub-menu__link" href="#">Submenu</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+<!-- main -->
+      <main>
+
+<!-- section practice -->
+         <section class="practice">
+            <div class="practice__container">
+               <h2>Practice</h2>
+               <div class="practice__blocks">
+                  <h3>Relative</h3>
+                  <div class="practice__block practice__block--yellow">static</div>
+                  <div class="practice__block practice__block--green">position: relative; top: 20px; left: 30px;</div>
+                  <div class="practice__block practice__block--violet">position: relative; z-index: 2;</div>
+                  <div class="practice__block practice__block--brown">position: relative; right: 10%;</div>      
+               </div>
+
+               <div class="practice__blocks">
+                  <h3>Absolute</h3>
+                  <div class="practice__blocks--color">
+                     <div class="practice__block practice__block--aqua"></div>
+                     <div class="practice__block practice__block--chocolate"></div>
+                     <div class="practice__block practice__block--blue">position: absolute; top: 20px; left: 30px;</div>
+                     <div class="practice__block practice__block--cadetblue">position: absolute; top: 20%; left: 30%;</div>
+                  </div>   
+               </div>
+               
+               <div class="practice__block--fixed">position: fixed;</div>
+            </div>
+
+                       
+            
+
+         </section>
+
+
+
+
+
+<!-- section price -->
+        <section class="price">
+          <div class="price__container">
+            <ul class="list">
+              <li class="list__item">Unlimited product updates</li>
+              <li class="list__item">Unlimited product</li>
+              <li class="list__item">Unlimited product</li>
+              <li class="list__item list__item--grey">1GB Cloud storage</li>
+              <li class="list__item list__item--grey">
+                Email and community support
+              </li>
+            </ul>
+          </div>
+        </section>
+
+<!-- section product -->
+        <section class="product">
+          <div class="product__container">
+            <div class="product__cards">
+              <h2>Body</h2>
+
+              <div class="product__images">
+                <div class="product__card">
+                  <h3>Body Scrab</h3>
+                  <a href="#">More</a>
+                  <img src="img/body-scrab.jpg" alt="" />
+                </div>
+
+                <div class="product__card">
+                  <h3>Body Lotion</h3>
+                  <a href="#">More</a>
+                  <img src="img/body-lotion.jpg" alt="" />
+                </div>
+
+                <div class="product__card">
+                  <h3>Body Oil</h3>
+                  <a href="#">More</a>
+                  <img src="img/body-oil.jpg" alt="" />
+                </div>
+              </div>
+
+              <a class="product__btn" href="#">More</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <h3 class="footer__title">
+            <a href="#top">Top</a>
+          </h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
