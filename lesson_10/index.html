@@ -52,8 +52,7 @@
   </head>
   <body id="top">
     <div class="wrapper">
-      
-<!-- header -->
+      <!-- header -->
       <header class="header header--margin">
         <div class="header__container">
           <div class="header__body">
@@ -103,36 +102,45 @@
         </div>
       </header>
 
-<!-- main -->
+      <!-- main -->
       <main>
-
-<!-- section practice -->
-         <section class="practice">
-            <div class="practice__container">
-               <h2>Practice</h2>
-               <div class="practice__blocks">
-                  <h3>Relative</h3>
-                  <div class="practice__block practice__block--yellow">static</div>
-                  <div class="practice__block practice__block--green">position: relative; top: 20px; left: 30px;</div>
-                  <div class="practice__block practice__block--violet">position: relative; z-index: 2;</div>
-                  <div class="practice__block practice__block--brown">position: relative; right: 10%;</div>      
-               </div>
-
-               <div class="practice__blocks">
-                  <h3>Absolute</h3>
-                  <div class="practice__color">
-                     <div class="practice__block practice__block--aqua"></div>
-                     <div class="practice__block practice__block--chocolate"></div>
-                     <div class="practice__block practice__block--blue">position: absolute; top: 20px; left: 30px;</div>
-                     <div class="practice__block practice__block--cadetblue">position: absolute; top: 20%; left: 50%;</div>
-                  </div>   
-               </div>
-               
-               <div class="practice__fixed">position: fixed;</div>
+        <!-- section practice -->
+        <section class="practice">
+          <div class="practice__container">
+            <h2>Practice</h2>
+            <div class="practice__blocks">
+              <h3>Relative</h3>
+              <div class="practice__block practice__block--yellow">static</div>
+              <div class="practice__block practice__block--green">
+                position: relative; top: 20px; left: 30px;
+              </div>
+              <div class="practice__block practice__block--violet">
+                position: relative; z-index: 2;
+              </div>
+              <div class="practice__block practice__block--brown">
+                position: relative; right: 10%;
+              </div>
             </div>
-         </section>
 
-<!-- section price -->
+            <div class="practice__blocks">
+              <h3>Absolute</h3>
+              <div class="practice__color">
+                <div class="practice__block practice__block--aqua"></div>
+                <div class="practice__block practice__block--chocolate"></div>
+                <div class="practice__block practice__block--blue">
+                  position: absolute; top: 20px; left: 30px;
+                </div>
+                <div class="practice__block practice__block--cadetblue">
+                  position: absolute; top: 20%; left: 50%;
+                </div>
+              </div>
+            </div>
+
+            <div class="practice__fixed">position: fixed;</div>
+          </div>
+        </section>
+
+        <!-- section price -->
         <section class="price">
           <div class="price__container">
             <h3>Price</h3>
@@ -141,38 +149,52 @@
               <li class="list__item">Unlimited product</li>
               <li class="list__item">Unlimited product</li>
               <li class="list__item list__item--grey">1GB Cloud storage</li>
-              <li class="list__item list__item--grey">Email and community support</li>
+              <li class="list__item list__item--grey">
+                Email and community support
+              </li>
             </ul>
           </div>
         </section>
 
-<!-- section product -->
+        <!-- section product -->
         <section class="product">
-          <div class="product__container">
-            <div class="product__cards">
-              <h2>Body</h2>
+          <div class="product__container container">
+            <h2 class="product__cards-title">Body</h2>
 
-              <div class="product__images">
+            <div class="product__images">
+              <a href="#" class="product__link">
                 <div class="product__card">
-                  <h3>Body Scrab</h3>
-                  <a href="#">More</a>
-                  <img src="img/body-scrab.jpg" alt="" />
+                  <h3 class="product__title">Body Scrab</h3>
+                  <div class="product__text">More</div>
+                  <div class="product__img">
+                    <img src="img/body-scrab.jpg" alt="image" />
+                  </div>
                 </div>
+              </a>
 
+              <a href="#" class="product__link">
                 <div class="product__card">
-                  <h3>Body Lotion</h3>
-                  <a href="#">More</a>
-                  <img src="img/body-lotion.jpg" alt="" />
+                  <h3 class="product__title">Body Lotion</h3>
+                  <div class="product__text">More</div>
+                  <div class="product__img">
+                    <img src="img/body-lotion.jpg" alt="" />
+                  </div>
                 </div>
+              </a>
 
+              <a href="#" class="product__link">
                 <div class="product__card">
-                  <h3>Body Oil</h3>
-                  <a href="#">More</a>
-                  <img src="img/body-oil.jpg" alt="" />
+                  <h3 class="product__title">Body Oil</h3>
+                  <div class="product__text">More</div>
+                  <div class="product__img">
+                    <img src="img/body-oil.jpg" alt="" />
+                  </div>
                 </div>
-              </div>
+              </a>
+            </div>
 
-              <a class="product__btn" href="#">More</a>
+            <div class="product__wrapper">
+              <a class="product__button" href="#">More</a>
             </div>
           </div>
         </section>
