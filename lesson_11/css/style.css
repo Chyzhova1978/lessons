@@ -380,7 +380,7 @@ body {
    background: #f18b68;
 }
 
-.light__beam {
+.locomotive__beam {
    position: absolute;
    left: 220px;
    top: 71px;
@@ -420,7 +420,7 @@ body {
    translate: -50% -50%;
 }
 
-.small__wheel {
+.locomotive__wheel {
    position: absolute;
    bottom: -18px;
    width: 26px;
@@ -430,7 +430,7 @@ body {
    border: 4px solid #c04b32;
 }
 
-.small__wheel:after {
+.locomotive__wheel::after {
    content:"";
    position: absolute;
    left: 50%;
@@ -442,11 +442,11 @@ body {
    translate: -50% -50%;
 }
 
-.small__wheel.s1 { 
+.locomotive__wheel.s1 { 
    left: 130px; 
 }
 
-.small__wheel.s2 { 
+.locomotive__wheel.s2 { 
    left: 170px; 
 }
 
