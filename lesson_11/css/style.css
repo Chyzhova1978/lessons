@@ -120,7 +120,6 @@ body {
 .card__front {
    border-radius: 30px;
    overflow: hidden;
-   transition: all 1s;
 }
 
 .card__back {
