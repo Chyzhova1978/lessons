@@ -263,7 +263,7 @@ body {
 }
 
 /* котел і передня частина - engine */
-.locomotive__body {
+.locomotive-body {
    position:  absolute;
    left: 230px;
    top: 65px;
@@ -283,7 +283,7 @@ body {
    background-color: #c04b32;
 }
 
-.locomotive__front {
+.locomotive-front {
    position: absolute;
    left: 350px;
    top: 115px;
@@ -326,11 +326,11 @@ body {
    filter: blur(4px); 
 }
 
-.smoke--1 {  
+.smoke-1 {  
    animation: smoke 2s ease-out infinite;
 }
 
-.smoke--2 {
+.smoke-2 {
    animation: smoke 2s ease-out 1s infinite;
 }
 
@@ -445,7 +445,7 @@ body {
    }
 }
 
-.locomotive__wheel::after {
+.locomotive-wheel::after {
    content:"";
    position: absolute;
    left: 50%;
@@ -458,12 +458,12 @@ body {
    outline: 2px dashed #000;
 }
 
-.locomotive__wheel.s1 {
+.locomotive-wheel.s1 {
    left: 310px;
    bottom: 0;
 }
 
-.locomotive__wheel.s2 {
+.locomotive-wheel.s2 {
    left: 350px;
    bottom: 0;
 }
@@ -485,7 +485,7 @@ body {
    background: #f18b68;
 }
 
-.locomotive__beam {
+.train__beam {
    position: absolute;
    left: 396px;
    top: 91px;
