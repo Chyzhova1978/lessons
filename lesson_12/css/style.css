@@ -440,7 +440,7 @@ body {
       rotate: 4deg;
    }
    100% {
-      width: 75;
+      width: 75px;
       rotate: 0deg;
    }
 }
