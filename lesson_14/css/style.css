@@ -1,0 +1,207 @@
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+
+body {
+   font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+   position: relative;
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper > maim {
+   flex-grow: 1;
+}
+
+.header {
+   margin-bottom: 82px;
+}
+
+.header, .footer{   
+   background: linear-gradient(0deg,rgba(195, 104, 34, 1) 0%, rgba(253, 253, 45, 0.99) 100%);
+}
+
+[class*="__container"] {
+   max-width: 1422px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header__title {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+[class*="__title"] {
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 1.25;
+   text-transform: uppercase;
+}
+
+[class*="__text"] {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #7e7f7c;
+}
+
+/* REGISTER TO FURNITUR */
+.register {
+   margin-bottom: 164px;
+}
+
+.register__header {
+   margin-bottom: 164px;
+}
+
+.header-register {
+   display: flex;
+   flex-direction: column;
+   row-gap: 36px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.register__content {
+   display: flex;  
+   gap: 80px;
+   position: relative;
+}
+
+.register__form {
+   max-width: 712px;
+}
+
+.form__title {
+   margin-bottom: 36px;
+   font-size: 32px;
+   font-weight: 800;
+}
+
+.form__wrappwer {
+   display: flex;
+   flex-direction: column;
+   gap: 72px;
+}
+
+.form__text{
+   font-weight: 500;  
+}
+
+.form__text a {
+   font-weight: 700;
+   color: #2f302c;
+   text-decoration: underline;
+   transition: all 0.3s;
+}
+
+.form__text a:hover {
+   color: #7e7f7c;
+}
+
+.form__inputs {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px 40px;
+}
+
+.form__input {
+   min-width: 336px;
+   font-size: 16px;
+   padding: 12px 0;
+   border-bottom: 1px solid #d4d4d4;
+   font-weight: 500;
+   color: #2f302c;
+}
+
+.form__input:nth-child(3) {
+   min-width: 712px;
+}
+
+.button {
+   max-width: 336px;
+   padding: 12px 0;
+   font-size: 16px;
+   font-weight: 500;
+   min-width: 336px;
+   color: #fff;
+   background-color: #2f302c;
+   transition: all 0.3s;
+   text-transform: none;
+}
+
+.button:hover {
+   background-color: #d4d4d4;
+   color: #2f302c;
+}
+
+.register__banner {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 60px 50px 60px 80px;
+   position: relative;
+   min-height: 496px;
+   flex: 0 1 600px;
+   background-color: #f6f6f6;
+   overflow: hidden;
+   z-index: 1;
+}
+
+.banner-register__img {
+   position: absolute;
+   top: 0;
+   right: 50px;
+   z-index: -1;
+}
+
+.banner-register__info {
+   display: flex;
+   flex-direction: column;
+   row-gap: 24px;
+   max-width: 184px;
+}
+
+.banner-register__label {
+   align-self: flex-start;
+}
+
+.label {
+   display: inline-block;
+   padding: 6px 8px;
+   font-weight: 700;
+   color: #fff;
+   background-color: #ce0000;
+   text-transform: uppercase;
+   border-radius: 4px;
+}
+
+/* footer */
+.footer__container {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+.footer__link {
+   font-size: 32px;
+   font-weight: 800;
+}
+
+
+
+
+
+
+

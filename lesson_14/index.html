@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Кодування тексту -->
+    <meta charset="UTF-8" />
+
+    <!-- Налаштування в`юпорту (адаптиву, масштабу тощо) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Загаловок сторінки в браузері(вкладці) -->
+    <title>Lesson 14</title>
+  </head>
+  <body id="top">
+    <div class="wrapper">
+      <!-- header -->
+      <header id="header" class="header">
+        <div class="header__container">
+          <div class="header__title">
+            <p>Lesson 14</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- REGISTER TO FURNITUR -->
+        <section class="register">
+          <div class="register__container">
+            <div class="register__header header-register">
+              <h1 class="header-register__title">REGISTER TO FURNITUR</h1>
+              <div class="header-register__text">
+                <p>GET MONTHLY VOUCHER WITH JUST ONE CLICK!</p>
+              </div>
+            </div>
+
+            <div class="register__content">
+              <div class="register__form form">
+                <h2 class="form__title">YOUR INFORMATION</h2>
+                <div class="form__wrappwer">
+                  <div class="form__text">
+                    <p>
+                      You already have an account?<span><a href="#">Sign in here</a></span>
+                    </p>
+                  </div>
+
+                  <form class="form__inputs" id="form" action="#" method="post" enctype="multipart/form-data">
+                    <input class="form__input" name="name" type="text" placeholder="You name"/>
+                    <input class="form__input" name="email" type="email" placeholder="E-mail">
+                    <input class="form__input" name="phone" type="tel" placeholder="Phone number">
+                    <input class="form__input" name="password" type="password" placeholder="Password">
+                    <input class="form__input" name="reset-password" type="password" placeholder="Reset">
+                  </form>
+                  <button class="button" form="form" type="button">
+                    Create an account
+                  </button>
+                </div>
+              </div>
+
+              <div class="register__banner banner-register">
+                <img class="banner-register__img" src="img/lights.png" alt="Lights">
+                <div class="banner-register__info">
+                  <div class="banner-register__label label">HOT</div>
+                  <h3 class="banner-register__title">
+                    DISCOUNT 25% FOR NEW MEMBER
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="#top" class="footer__link title">Top</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
