@@ -1,0 +1,273 @@
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+body {
+   font-size: 20px;
+   font-family: "Lato",sans-serif;
+   font-weight: 700;
+   line-height: 1.4;
+   color: #2f302c;
+   text-transform: uppercase;
+}
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper > maim {
+   flex-grow: 1;
+}
+
+[class*="__container"] {
+   max-width: 1422px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+[class*="__text"] {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.25;
+   color: #7e7f7c;
+   text-transform: none;
+}
+
+.header {   
+   font-size: 16px;
+}
+
+.header__container {
+   min-height: 164px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 80px;
+   line-height: 1.25;
+}
+
+.logo__img {
+   width: 200px;
+   max-width: none;
+}
+
+.search-header__form {
+   display: flex;
+   flex-basis: 264px;
+   overflow: hidden;
+   border-bottom: 1px solid #d4d4d4;
+}
+
+.search-header__button {
+   width: 20px;
+   flex-shrink: 1;
+   background: url(../img/search.svg) left no-repeat;
+}
+
+.search-header__input {
+   font-weight: 500;
+   padding-left: 15px;
+   padding-right: 15px;
+   height: 43px;
+}
+
+.menu__list {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 44px;
+}
+
+.menu__item {
+   position: relative;
+}
+
+.menu__link {
+   transition: all 0.3s;
+}
+
+.menu__link:hover {
+   opacity: 0.5;
+}
+
+.menu__link--arrow::after {
+   content: "";
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-image: url(../img/arrow.svg);
+   background-repeat: no-repeat;
+}
+
+.action__list {
+   display: flex;
+   align-items: center;
+   gap: 44px;
+}
+
+.action__link {
+   display: flex;
+   align-items: center;
+   column-gap: 4px;
+   transition: all 0.3s;   
+}
+
+.action__link:hover {
+   opacity: 0.5;  
+}
+
+/* FUNITURE GALLERY */
+.hello {
+   padding-top: 114px;
+   padding-bottom: 110px;
+   background: #d4d4d4 url(../img/rectangle.jpg) left center / cover no-repeat;
+}
+
+.hello__container {
+   max-width: 1132px;
+}
+
+.hello__body {
+   max-width: 518px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   margin-left: auto;  
+}
+
+.hello__body>* {
+   margin-bottom: 20px;
+}
+
+.hello__body>*:last-child {
+   margin-bottom: 0;
+}
+
+.hello__subtitle p{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 1.4;
+   text-transform: uppercase;
+}
+
+.hello__title {
+   margin-bottom: 16px;
+   color: #2f302c;
+   font-size: 96px;
+   font-family: "Montserrat",sans-serif;
+   line-height: 1;
+   text-transform: uppercase;
+}
+
+.hello__title span {
+   font-weight: 800;
+}
+
+.hello__inline {
+   max-width: 308px;
+   margin-bottom: 36px;
+   margin-left: 5px;
+   height: 1px;
+   background-color: #2f302c;
+}
+
+.hello__text {
+   min-width: 374px;
+}
+
+/* footer */
+.footer__container {
+   padding-block: 72px;
+}
+
+.footer__body {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__icons {
+   display: flex;
+   align-items: center;
+   column-gap: 32px;
+}
+
+@media (width <= 1422px) {
+   .header__container {
+      min-height: 120px;
+      gap: 40px;
+   }
+}
+
+@media (width <= 992px) {
+   .header__container {
+      min-height: 100px;
+      gap: 30px;
+   }
+   .header__logo {
+      width: 35px;
+      overflow: hidden;
+   }
+}
+
+@media (width <= 768px) {
+   .header__container {
+     min-height: 50px;
+     gap: 10px;
+   }
+   .hello {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+   }
+   .hello__subtitle p {
+      font-size: 16px;
+   }
+   .hello__title {
+      font-size: 35px;
+   }
+   .hello__inline {
+      margin: 0 auto;
+   }
+   [class*="__text"] {
+      font-size: 14px;
+   }
+   .footer {
+      margin-top: auto;
+   }
+   .footer__container {
+      padding-block: 30px;
+   }
+   .footer__body {
+      max-height: 100px;
+   }
+   .footer__text p {
+      width: 0;
+      overflow: hidden;
+   }
+   .footer__icons {
+      margin: 0 auto;
+   }
+}
+
+@media (width < 480px) {
+   .header__container {
+      gap: 5px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
