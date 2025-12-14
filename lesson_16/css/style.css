@@ -286,7 +286,7 @@ body {
       /* align-items: flex-end; */
    }
    .menu__link {
-      font-style: 28px;
+      font-size: 28px;
    }
    .header__search {
       flex-grow: 1;
