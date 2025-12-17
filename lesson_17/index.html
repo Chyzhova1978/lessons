@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Кодування тексту -->
+    <meta charset="UTF-8">
+
+    <!-- Налаштування в`юпорту (адаптиву, масштабу тощо) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Підключення шрифтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Загаловок сторінки в браузері(вкладці) -->
+    <title>Lesson 17</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img class="header__image-logo" src="img/logo.svg" alt="Logo">
+          </div>
+
+          <form class="header__search search-header" action="#">
+            <button class="search-header__button" type="submit"></button>
+            <input
+              class="search-header__input"
+              type="search"
+              placeholder="Search something">
+          </form>
+
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">HOME</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">SHOP</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">BLOG</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">ABOUT US</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <ul class="header__action action-header">
+            <li class="action-header__item">
+              <a class="action-header__link action-header__link--love" href="#">LOVE</a>
+            </li>
+            <li class="action-header__item">
+              <a class="action-header__link action-header__link--cart" href="#">CART</a>
+            </li>
+          </ul>
+          <button class="icon-menu"><span></span></button>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- FUNITURE GALLERY -->
+         <!-- section catalog -->
+        <section class="catalog">
+          <div class="catalog__container">
+            <div class="catalog__cards">
+              <div class="catalog__card catalog__card--first">
+                <div class="catalog__img image">
+                  <img
+                    class="image__lamp image__lamp--small"
+                    src="img/lamp-small.png"
+                    alt="Lamp small">
+                  <img
+                    class="image__lamp image__lamp--big"
+                    src="img/lamp-big.png"
+                    alt="Lamp big">
+                </div>
+                <div class="catalog__content">
+                  <h3>HANGING LIGHT</h3>
+                  <p>
+                    Upgrade your space with our modern hanging light, featuring
+                    sleek lines, energy-efficient LED lighting, and adjustable
+                    height.
+                  </p>
+                  <a class="catalog__link" href="#">View more</a>
+                </div>
+              </div>
+
+              <div class="catalog__card catalog__card--second">
+                <div class="catalog__img image">
+                  <img src="img/sofa.png" alt="Sofa">
+                </div>
+                <div class="catalog__content">
+                  <h3>DESIGNED SOFA</h3>
+                  <p>
+                    Introducing our newest sofa, the perfect combination of
+                    style and comfort, designed to elevate your living space and
+                    provide ultimate relaxation.
+                  </p>
+                  <a class="catalog__link" href="#">View more</a>
+                </div>
+              </div>
+
+              <div class="catalog__card catalog__card--third">
+                <div class="catalog__img image">
+                  <img class="image__chair" src="img/chair.png" alt="Chair">
+                </div>
+                <div class="catalog__content">
+                  <h3>NOVA CHAIR</h3>
+                  <p>
+                    a stylish and comfortable addition to any room, with its
+                    sleek design and plush cushions creating the ultimate
+                    seating experience.
+                  </p>
+                  <a class="catalog__link" href="#">View more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+        <!-- section trusted-by -->
+        <section class="trusted-by">
+          <div class="trusted-by__container">
+            <div class="trusted-by__body">
+
+              <h2 class="trusted-by__title">TRUSTED BY</h2>
+
+              <div class="trusted-by__content">
+                <div class="trusted-by__img">
+                  <img src="img/png/aspen-online.png" alt="Logo of aspen online company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/cropand-highlight.png" alt="Logo of Cropand Highlight company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/brand-logo.png" alt="Logo of N company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/missy.png" alt="Logo of Missy company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/peppermint.png" alt="Logo of Peppermint company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/pixie-labs.png" alt="Logo of Pixie Labs company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/brand-logo.png" alt="Logo of N company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/pixie-labs.png" alt="Logo of Pixie Labs company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/peppermint.png" alt="Logo of Peppermint company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/missy.png" alt="Logo of Missy company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/aspen-online.png" alt="Logo of aspen online company">
+                </div>
+                <div class="trusted-by__img">
+                  <img src="img/png/cropand-highlight.png" alt="Logo of Cropand Highlight company">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- section products -->
+        <section class="products">
+          <div class="products__container">
+
+            <h2 class="products__title">FEATURED PRODUCTS</h2>
+
+            <ul class="products__menu">
+               <li class="products__item">
+                  <a href="#">ALL</a>
+               </li>
+               <li class="products__item">
+                  <a href="#">ON SALE</a>
+               </li>
+               <li class="products__item">
+                  <a href="#">SOFA</a>
+               </li>
+               <li class="products__item">
+                  <a href="#">HANGING LIGHT</a>
+               </li>
+            </ul>
+
+            <div class="products__items">
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-1.jpg" alt="Urban lux high chair">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="#">URBAN LUX HIGH CHAIR</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$2668.15</span>
+                </div>
+              </div>
+
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-2.jpg" alt="Mordern black hanging light">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="#">MORDERN BLACK HANGING LIGHT</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$1595.6</span>
+                </div>
+              </div>
+
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-3.jpg" alt="Metro fusion table">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="#">METRO FUSION TABLE</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$2238.30</span>
+                </div>
+              </div>
+
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-4.jpg" alt="Lumin desk lamp">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="#">LUMIN DESK LAMP</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$1477.80</span>
+                </div>
+              </div>
+
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-5.jpg" alt="Timeless edge hanging clock">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="#">TIMELESS EDGE HANGING CLOCK</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$1071.6</span>
+                </div>
+              </div>
+
+              <div class="products__item item-block">
+                <a class="item-block__link-image" href="#">
+                  <img src="img/img-6.jpg" alt="Zenith pendant light">
+                </a>
+                <div class="item-block__body">
+                  <h3 class="item-block__title">
+                    <a href="">ZENITH PENDANT LIGHT</a>
+                  </h3>
+                  <ul class="item-block__list">
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                    <li class="item-block__star">
+                      <img src="img/icons/star.svg" alt="Smal black star icon">
+                    </li>
+                  </ul>
+                  <span class="item-block__price">$2069.59</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- section benefits -->
+        <section class="benefits">
+          <div class="benefits__container">
+            <div class="benefits__body">
+               <h2 class="benefits__title">WHY CHOOSE US?</h2>
+               
+               <div class="benefits__items">
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/group.svg"
+                     alt="Icon global delivery">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">GLOBAL DELIVERY</h3>
+                     <div class="item-card__text">
+                       <p>
+                         Experience Hassle-Free Shipping and Seamless Global
+                         Connectivity with Our Trustworthy and Efficient Delivery
+                         Service, Bringing the World to Your Fingertips!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/box.svg"
+                     alt="Icon free shipping">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">FREE SHIPPING</h3>
+                     <div class="item-card__text">
+                       <p>
+                         Shop to Your Heart's Content Without Worrying About
+                         Shipping Costs: Our Free Shipping Service Delivers Your
+                         Purchases with a Smile, Straight to Your Doorstep!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/phone.svg"
+                     alt="Icon 24/7 supporting">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">24/7 SUPPORTING</h3>
+                     <div class="item-card__text">
+                       <p>
+                         Shop with Confidence Anytime, Anywhere: Our Free Shipping
+                         Service Comes with 24/7 Support to Ensure Your Packages
+                         Arrive Safely and On Time!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/email.svg"
+                     alt="Icon daily email">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">DAILY EMAIL</h3>
+                     <div class="item-card__text">
+                       <p>
+                         Stay Up-to-Date with Your Deliveries: Enjoy the
+                         Convenience of Daily Email Updates with Our Free Shipping
+                         Service, Making Your Online Shopping Experience Even More
+                         Enjoyable!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/card.svg"
+                     alt="Icon easy payment">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">EASY PAYMENT</h3>
+                     <div class="item-card__text">
+                       <p>
+                         Shop and Pay with Ease: Our Free Shipping Service Not Only
+                         Delivers Your Packages for Free, but Also Offers Easy
+                         Payment Options, Making Your Shopping Experience a Breeze!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="benefits__item item-card">
+                   <img
+                     class="item-card__img"
+                     src="img/icons/vector.svg"
+                     alt="Icon monthly voucher">
+                   <div class="item-card__body">
+                     <h3 class="item-card__title">MONTHLY VOUCHER</h3>
+                     <div class="item-card__text">
+                       <p>
+                         More Than Just Free Shipping: Our Service Rewards Your
+                         Loyalty with Monthly Vouchers, Giving You More Reasons to
+                         Shop and Save on Your Favorite Products!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__body">
+            <div class="footer__text">
+              <p>Furnitur © Copyright 2020, Inc. All rights reserved</p>
+            </div>
+
+            <div class="footer__icons">
+              <a href="#">
+                <img src="img/icons/facebook.svg" alt="Icon facebook">
+              </a>
+              <a href="#">
+                <img src="img/icons/twitter.svg" alt="Icon twitter">
+              </a>
+              <a href="#">
+                <img src="img/icons/inst.svg" alt="Icon inst">
+              </a>
+              <a href="#">
+                <img src="img/icons/art.svg" alt="Icon art">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
