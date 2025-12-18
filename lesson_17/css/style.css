@@ -254,8 +254,8 @@ body {
 
 .trusted-by__content {
    display: grid;
+   grid-template-columns: repeat(6, 1fr);
    gap: 74.4px;
-   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 }
 
 /* section products */
@@ -298,10 +298,10 @@ body {
 
 .products__items {
    display: grid;
-   gap: 36px;
    grid-template-columns: repeat(auto-fill, minmax(440px, auto));
    justify-items: center;
    align-items: center;
+   gap: 36px;
 }
 
 .item-block {
@@ -447,7 +447,7 @@ body {
       margin-bottom: 0;
    }
    .trusted-by__content {
-      grid-template-columns: repeat(4, 170px);
+      grid-template-columns: repeat(4, 1fr);
       padding-top: 30px;
       padding-bottom: 0;
       gap: 40px 50px;
@@ -504,7 +504,7 @@ body {
       padding-right: 10px;
    }
    .trusted-by__content {
-      grid-template-columns: repeat(3, 170px);
+      grid-template-columns: repeat(3, 1fr);
    } 
 }
 
@@ -638,7 +638,7 @@ body {
       margin: 0 auto;
    }
    .trusted-by__content {
-      grid-template-columns: repeat(2, 170px);
+      grid-template-columns: repeat(2, 1fr);
    }
    .benefits__items {
       grid-template-columns: repeat(auto-fill, minmax(348px, auto));
@@ -677,7 +677,7 @@ body {
       padding-top: 50px;
    }
    .trusted-by__content {
-      grid-template-columns: repeat(1, 170px);
+      grid-template-columns: repeat(1, 1fr);
       padding-top: 0px;
       padding-bottom: 0px;
       gap: 30px 30px;
