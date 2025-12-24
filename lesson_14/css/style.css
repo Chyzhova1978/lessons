@@ -73,72 +73,72 @@ body {
    text-transform: uppercase;
 }
 
-.register__content {
-   display: flex;  
+.register__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
    gap: 80px;
-   position: relative;
 }
 
-.register__form {
-   max-width: 712px;
-}
-
-.form__title {
-   margin-bottom: 36px;
-   font-size: 32px;
-   font-weight: 800;
-}
-
-.form__wrappwer {
+.form-register {
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
+   flex: 1 1 712px;
    gap: 72px;
 }
 
-.form__text{
-   font-weight: 500;  
-}
-
-.form__text a {
-   font-weight: 700;
-   color: #2f302c;
-   text-decoration: underline;
-   transition: all 0.3s;
-}
-
-.form__text a:hover {
-   color: #7e7f7c;
-}
-
-.form__inputs {
+.form-register__header {
    display: flex;
-   flex-wrap: wrap;
-   gap: 40px 40px;
+   flex-direction: column;
+   row-gap: 36px;
 }
 
-.form__input {
-   min-width: 336px;
-   font-size: 16px;
-   padding: 12px 0;
-   border-bottom: 1px solid #d4d4d4;
+.form-register__text {
    font-weight: 500;
-   color: #2f302c;
 }
 
-.form__input:nth-child(3) {
-   min-width: 712px;
+.form-register__link {
+   font-weight: 700;
+   text-decoration: underline;
+   color: #2f302c;
+   transition: color 0.3s;
+}
+
+.form-register__fields {
+   display: flex;
+   flex-direction: column;
+   row-gap: 40px;
+}
+
+.form-register__row {
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+}
+
+.form-register__field {
+   width: 100%;
+}
+
+.form-register__input {
+   height: 44px;
+   padding: 12px 0px;
+   border-bottom: 1px solid #d4d4d4;
+   outline: none;
+}
+
+.form-register__button {
+   align-self: flex-start;
 }
 
 .button {
-   max-width: 336px;
-   padding: 12px 0;
-   font-size: 16px;
+   padding: 12px;
    font-weight: 500;
    min-width: 336px;
    color: #fff;
    background-color: #2f302c;
    transition: all 0.3s;
-   text-transform: none;
 }
 
 .button:hover {
