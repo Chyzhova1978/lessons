@@ -1,0 +1,549 @@
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Значення за замовченням */
+body {
+   font-family: "Montserrat", sans-serif;
+   font-size: 19px;
+   color: #343434;  
+}
+
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper > maim {
+   flex-grow: 1;
+}
+
+.decor-flower-1, .decor-flower-2, .decor-flower-3, .decor-flower-4 {
+   position: absolute;
+   top: 0;
+   width: 232px;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: contain;
+   z-index: -1;
+}
+
+.decor-flower-1 {
+   top: -1400px;
+   right: 0;
+   background-image: url(../img/decor-flower-1.svg);
+   background-position: right center;
+}
+
+.decor-flower-2{
+   top: -1000px;
+   left: 0;
+   background-image: url(../img/decor-flower-2.svg);
+   background-position: left center;
+}
+
+.decor-flower-3 {
+   top: -150px;
+   right: 0;
+   background-image: url(../img/decor-flower-3.svg);
+   background-position: right center;
+}
+
+.decor-flower-4 {
+   top: 1050px;
+   left: 0;
+   background-image: url(../img/decor-flower-4.svg);
+   background-position: left center;
+}
+
+/* Обмежуючий контейнер  */
+[class*="__container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* header */
+.header__body {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 30px;
+}
+
+.header__image {
+   aspect-ratio: 124 / 44;
+   max-width: 100%;
+}
+
+.header__menu {
+   flex-grow: 1;
+}
+
+.menu__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+}
+
+.menu__link {
+   font-size: 16px;
+}
+
+.button {  
+   color: #fff;
+   background: #ba936f;
+   border-radius: 15px;
+   padding: 11px 47px;
+   text-align: center;
+   flex-shrink: 0;
+   flex-grow: 0;
+}
+
+.icon-menu {
+   display: none;
+}
+
+/* section hero */
+.hero--margin {
+   margin-top: 103px;
+}
+
+.hero__body {
+   display: flex;
+   gap: 27px;
+}
+
+.hero__content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-basis: 57.25%;
+   position: relative;
+}
+
+.hero__title {
+   color: #ba936f;
+   font-size: 50px;
+   font-family: "Lora", serif;
+   text-transform: uppercase;
+   margin-bottom: 70px;
+}
+
+.hero__text {
+   max-width: 638px;
+   margin-bottom: 60px;
+}
+
+.hero__text p {
+   line-height: 1.42;
+}
+
+.hero__link {
+   display: flex;
+   max-width: 240px;
+   gap: 6px;
+   align-items: center;
+}
+
+.hero__link span {
+   position: relative;
+   left: -45px;
+}
+
+.hero__picture {
+   flex-basis: 40.50%;
+   overflow: hidden;
+   border-radius: 33px;
+}
+
+/* section anytime */
+.anytime {
+   margin-top: 176px;
+}
+
+.anytime__body {
+   display: flex;
+   column-gap: 40px;
+   align-items: center;
+   justify-content: center;
+}
+
+.anytime__picture {
+   flex-basis: 50%;
+   flex-grow: 0;
+   flex-shrink: 1;
+   overflow: hidden;
+   border-radius: 33px;
+}
+
+.anytime__image {
+   object-fit: cover;
+   aspect-ratio: 1;
+}
+
+.anytime__content {
+   align-self: center;
+   flex-basis: 46%;
+   flex-grow: 1;
+   flex-shrink: 1;
+}
+
+.anytime__content *:not(:last-child) {
+   margin-bottom: 43px;
+}
+
+.anytime__title {
+   margin-bottom: 55px;
+}
+
+.title {
+   color: #ba936f;
+   font-size: 35px;
+   font-family: "Lora", serif;
+   text-transform: uppercase;
+}
+
+.anytime__text *:not(:last-child) {
+   margin-bottom: 43px;
+}
+
+.anytime__text p:last-child {
+   font-size: 17px;
+}
+
+.anytime__text span {
+   font-weight: 600;
+   color: #ba936f;
+}
+
+/* section lessons */
+.lessons {
+   margin-top: 136px;
+}
+
+.lessons__title {
+   margin-bottom: 32px;
+}
+
+.lessons__text {
+   max-width: 839px;
+   margin-bottom: 58px;
+}
+.text {
+   font-size: 17px;
+   line-height:  1.42;
+}
+
+.lessons__regular {
+   display: flex;
+   justify-content: space-between;
+   gap: 46px;
+}
+
+.regular-lessons__img {
+   margin-bottom: 14px;
+}
+
+.regular-lessons figcaption {
+   color: #ba936f;
+   font-size: 22px;
+   font-family: "Lora", serif;
+   font-weight: 400;
+   line-height: 1.27;
+   padding-left: 11px;  
+}
+
+/* section schedule */
+.schedule {
+   margin-top: 102px;
+}
+
+.schedule__title {
+   margin-bottom: 16px;
+}
+
+.schedule__text {
+   max-width: 839px;
+   margin-bottom: 41px;
+}
+
+.schedule__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 33px;
+}
+
+.schedule__table {
+   min-width: 55%;
+
+}
+
+.schedule__table table {
+   max-width: 661px;   
+   font-size: 17px;
+   line-height: 1.58;
+   text-transform: uppercase;
+   border-collapse: collapse;
+   color: #343434;
+}
+
+.schedule__table table tr {
+   border-bottom: 1px solid #BA936F;
+}
+
+.schedule__table table tr:first-child {
+   border-top: 1px solid #ba936f;
+}
+
+.schedule__table table td {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   vertical-align: middle;
+}
+
+.schedule__table table td:nth-child(1) {
+   text-align: left;
+   padding-right: 65px;
+   width: 20%;
+}
+
+.schedule__link a {
+   position: relative;
+ }
+
+.schedule__link a::after {
+   content: url(../img/up-right-arrow.svg);
+   position: absolute;
+   top: -5px;
+   right: -20px;
+}
+
+.schedule__table table td:nth-child(3) {
+   padding-left: 70px;
+}
+
+.footer__container {
+   padding: 60px 0;
+   text-align: center;
+}
+
+.footer__container a {
+   font-size: 50px;
+}
+
+@media (width <= 1440px) { 
+}
+
+@media (width <= 1200px) {
+   .hero__container {
+      padding-bottom: 50px;
+      gap: 20px;
+   }
+   .hero__title {
+      margin-bottom: 50px;
+   }
+   [class*="__text"] {
+      min-width: 100%;
+      text-align: justify;
+   }
+   .anytime__body {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      gap: 30px;
+   }
+   .anytime__picture {
+      min-width: 50%;
+   }
+   .anytime__content {
+      padding-top: 0;
+   }
+   .schedule__table table {
+      font-size: 14px;
+   }    
+}
+
+@media (width <= 992px) {
+   .menu__list {
+      gap: 15px;
+   }
+   .hero, .anytime, .lessons, .schedule {
+      margin-top: 20px;
+   }   
+   .hero__title {
+      font-size: 30px;
+   }
+   [class*="__text"] {
+      min-width: 100%;
+      text-align: justify;
+   }
+   .anytime__body {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      gap: 20px;
+   }
+   .anytime__title {
+      font-size: 27px;
+      margin-bottom: 20px;
+   }
+   [class*="__title"] {
+   text-align: center;
+   }
+   .anytime__text {
+      margin-bottom: 25px;
+   }
+   .schedule__content {
+      gap: 20px;
+   }
+   .schedule__table table {
+      font-size: 12px;
+   }
+}
+
+@media (width < 768px) {
+   .icon-menu, .header__logo, .header__button {
+      position: relative;
+      z-index: 3;
+   }
+   .menu {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 100%;
+      background-color: #fdefe6;
+      z-index: 1;
+      overflow: auto;
+      transition: left 0.3s;
+      padding: 120px 15px 30px 15px;
+   }
+   .menu__list {
+      row-gap: 30px;
+      flex-direction: column;
+    }
+   .menu__link {
+      font-size: 28px;
+   }
+   .header__button {
+      order: 2;
+   }
+   .icon-menu {
+      display: block;
+      width: 30px;
+      height: 18px;
+      flex-shrink: 0;
+      order: 3;
+   }
+   .icon-menu span, .icon-menu::before, .icon-menu::after {
+      content: "";
+      height: 2px;
+      width: 30px;
+      position: absolute;
+      right: 0;
+      transition: all 0.3s;
+      background-color: #2f302c;
+   }
+   .icon-menu span {
+      top: 50%;
+      translate: 0 -50%;
+   }
+   .icon-menu::before {
+      top: 0;
+   }
+   .icon-menu::after {
+      bottom: 0;
+   }
+   [data-menu-open] .icon-menu span {
+      width: 0;
+   }
+   [data-menu-open] .icon-menu::before {
+      rotate: -45deg;
+      translate: 0 -50%;
+      top: 50%;
+   }
+   [data-menu-open] .icon-menu::after {
+      rotate: 45deg;
+      translate: 0 50%;
+      bottom: 50%;
+   }
+   [data-menu-open] .menu,
+   [data-menu-open] .menu::before {
+      left: 0;
+   }
+   .hero, .anytime, .lessons, .schedule {
+      margin-top: 20px;
+   }    
+   .hero__container {
+      padding-bottom: 30px;
+   }
+   .hero__body {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .hero__picture {
+      min-width: 100%;
+      text-align: center;
+   }
+   .anytime__body {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .anytime__picture {
+      order: 2;
+   }
+   .anytime__picture {
+      min-width: 100%;
+      text-align: center;
+   }
+   .title {
+      font-size: 25px;
+      margin-bottom: 40px;
+   }
+   .anytime__button {
+      width: 100%;
+   }
+   [class*="__text"] {
+   font-size: 16px;
+   }
+   .lessons__regular {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+   }
+   .regular-lessons figcaption {
+      text-align: center;
+   }
+   .schedule__content {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      align-items: center;
+   }   
+}
+
+@media (width < 480px) {
+   .hero__text {
+      text-align: justify;
+   }
+   .schedule__table table {
+      font-size: 10px;
+   }
+   .footer__container {
+      padding: 30px 0;
+      text-align: center;
+   }
+   .footer__container a {
+      font-size: 20px;
+   }
+}
