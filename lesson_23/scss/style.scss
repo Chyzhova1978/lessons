@@ -1,0 +1,66 @@
+
+@use"_reset";
+
+body {
+   font-family: "Playfair Displey", serif;
+   font-weight: 400;   
+}
+
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper > maim {
+   flex-grow: 1;
+}
+
+/* Обмежуючий контейнер  */
+[class*="__container"] {
+   max-width: 87.5rem;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* header */
+// main
+
+.page__container div {
+   margin-top: 3.125rem;
+}
+
+h1 {
+   font-size: 1.875rem;
+}
+
+.page__content > :nth-child(2) {
+   font-size: 1.25rem;
+}
+
+.page__content p {
+   font-size: 1.125rem;
+}
+
+h2 {
+   margin-top: 20px;
+   color: blueviolet;
+}
+
+.button {
+   display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

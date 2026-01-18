@@ -2,6 +2,7 @@
 // Скидання стилів
 @use"_reset.scss";
 @use"_fonts.scss";
+@use"_icons.scss";
 @use"_mixins.scss" as *;
 
 body {
@@ -27,6 +28,11 @@ body {
    max-width: 87.5rem;
    margin: 0 auto;
    padding: 0 15px;
+}
+
+.page {
+   font-size: 58px;
+   color: red;
 }
 
 
